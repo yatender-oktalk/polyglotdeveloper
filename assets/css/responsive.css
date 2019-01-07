@@ -1,0 +1,117 @@
+/* ============================================================
+Template Name: MORACO - Personal Vcard Resume HTML Template
+Author: Marwa El-Manawy -- http://elmanawy.info
+Description: MORACO - Personal Vcard Resume HTML Template.
+Version: 1.0
+===============================================================
+*/
+@media( max-width:992px) 
+{
+    #loading img{
+        width: 100%;
+        height: auto;
+    }
+    header{
+        display: none;
+    }
+    .responsive-menu b {
+        color: #ffffff;
+        font-size: 18px;
+        text-transform: uppercase;
+        line-height: 34px;
+        font-weight: 700;
+    }
+    .responsive-menu  { 
+        height:55px;  
+        position: fixed;
+        background: #2f3742; 
+        z-index: 9999; 
+        width: 100%; 
+        padding: 12px 15px;
+        display: block; 
+    }
+    .menu_area{
+        display: block;
+        position:fixed;
+        left:-230px;
+        top:55px; 
+        width:230px; 
+        height:100%; 
+        z-index: 9999;
+        background-color: #2f3742;
+    }
+    .navbar-default .navbar-collapse, .navbar-default{
+        border: 0;
+        box-shadow: none;
+    }
+    .but span {
+        position: absolute; 
+        right:15px;
+        top: 13px;	
+        font-size: 24px;
+        color: #fff;
+    }
+    .but span { 
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg); 
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+        transition:all 0.5s ease-in-out; 
+        -webkit-transition:all 0.3s ease-in-out; 
+        -o-transition:all 0.3s ease-in-out; 
+        -ms-transition:all 0.3s ease-in-out; 
+        -moz-transition:all 0.3s ease-in-out; 
+    }
+    .but.active span {
+        -webkit-transform: rotate(90deg); 
+        -moz-transform: rotate(90deg);
+        -o-transform: rotate(90deg); 
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg); 
+    }
+
+
+    [class^="ti-"], [class*=" ti-"] {
+        font-family: 'themify';
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    .main.scroll-page {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+    .home-intro h2, .home-intro span {
+        font-size: 30px;
+    }
+    .home-intro h1 {
+        font-size: 25px;
+    }
+    .home-intro span {
+        font-size: 18px;
+    }
+    .social-profiles a {
+        margin-bottom: 7px;
+    }
+    .skills small {
+
+        margin-bottom: 15px;
+    }
+    figure h2 {
+        font-size: 24px;
+    }
+    figure.effect-winston:hover p i {
+        font-size: 20px;
+    }
+    .skill .progress .lead, .skill .progress-bar > span  {
+        font-size: 13px;
+    }
+
+}
+
